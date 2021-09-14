@@ -7,6 +7,7 @@ export default function Movie(props) {
 
   
   let { id } = useParams();
+ 
   // Change ^^^ that line and use a hook to obtain the :id parameter from the URL
 
   useEffect(() => {
